@@ -10,7 +10,7 @@ const router = useRouter();
 
 let id = 0;
 const predmet = ref<Predmet | null>(null);
-
+  
 const inputNaziv = ref<HTMLInputElement>();
 const inputEspb = ref<HTMLInputElement>();
 
